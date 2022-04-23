@@ -51,8 +51,8 @@ const favoriteThings = {
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car and then another key named 'show' with the value being your favorite show.
 */
 
-favoriteThings.car = 'Toyota FJ Cruiser',;
-favoriteThings.show = 'Yellowstone',;
+favoriteThings.car = "Toyota FJ Cruiser";
+favoriteThings.show = "Yellowstone";
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
@@ -78,12 +78,7 @@ var carDetails = {
   Use object destructuring to save the property values from the object carDetails into new variables. 
 */
 
-const {
-  color,
-  make,
-  model,
-  year
-} = carDetails;
+const { color, make, model, year } = carDetails;
 
 //////////////////////////// PROBLEM 7 ////////////////////////////
 
@@ -94,13 +89,9 @@ const {
 */
 
 function greeting(obj) {
-  const {
-    title,
-    firstName,
-    lastName
-  } = obj
+  const { title, firstName, lastName } = obj;
 
-Do not edit the code below.
+  //Do not edit the code below.
   return "Hello, " + title + " " + firstName + " " + lastName + "!";
   // Do not edit the code above.
 }
@@ -143,11 +134,10 @@ const nutrientObj = {
 };
 
 function ingredients(nutrientObj) {
-  const {carb, fat, protein} = nutrientObj;
+  const { carb, fat, protein } = nutrientObj;
   let nutrientArr = [];
   nutrientArr.push(carb, fat, protein);
 }
-
 
 //////////////////////////// PROBLEM 10 ////////////////////////////
 // Do not edit the code below.
